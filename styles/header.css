@@ -13,6 +13,46 @@
 
 .header-title{
     font-family: "Comic Neue", cursive;
+    font-weight: 400;
 }
 
+.header-information{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
+.header-information p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+    margin: .5rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.header-information p::before{
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.job::before{
+    background-image: url('/assets/header/user\ icon.svg');
+}
+
+.location::before{
+    background-image: url('/assets/header/location\ icon.svg');
+}
+
+.phone::before{
+    background-image: url('/assets/header/whatsapp\ icon.svg');
+}
+
+.email::before{
+    background-image: url('/assets/header/mail\ icon.svg');
+}
