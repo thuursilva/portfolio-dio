@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.header-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.header-title{
+    font-family: "Comic Neue", cursive;
+}
+
+
