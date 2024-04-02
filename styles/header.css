@@ -56,3 +56,29 @@
 .email::before{
     background-image: url('/assets/header/mail\ icon.svg');
 }
+
+@media screen and (min-width: 768px) {
+
+    .header-img{
+        grid-area: photo;
+        margin: 0 auto;
+    }
+
+    .header-title{
+        grid-area: title;
+        text-align: start;
+    }
+
+    .header-information{
+        grid-area: information;
+        text-align: start;
+    }
+
+    .header{ 
+        display: grid;
+        grid-template-areas:
+        "photo title"
+        "photo information"
+        ;
+    }
+}
