@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/acordeon.css">
     <link rel="stylesheet" href="styles/languages.css">
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <link rel="stylesheet" href="styles/experience.css">
+    <link rel="stylesheet" href="styles/skills.css">
     <title>Portfólio curso DIO</title>
 </head>
 
@@ -25,14 +28,60 @@
 
             <p class="job">Analista de Suporte JR na Cartos SCD</p>
             <p class="location">São Paulo - BR</p>
-            <p class="phone">(11) 98515-8368</p>
-            <p class="email">thurfsilva@gmail.com</p>
+            <p class="phone">
+                <a href="tel:+5511985158368">(11) 98515-8368</a>
+            </p>
+            <p class="email">
+                <a href="mailto:thurfsilva@gmail.com">thurfsilva@gmail.com</a>
+            </p>
         </div>
     </header>
 
     <section class="acordeon">
         
-        <button class="trigger" type="button">Idiomas</button>
+        <button class="trigger" type="button">
+            <h2>Skills</h2>
+        </button>
+
+        <div class="content">
+            <div class="skills">
+                <section class="professional-skills">
+                    <h3>Ferramentas:</h3>
+                    <ul class="tools">
+                        <li>
+                            <img src="assets/acordeon/javascript.png" alt="JavaScript" title="Javascript">
+                        </li>
+                        <li>
+                            <img src="assets/acordeon/react.png" alt="React" title="React">
+                        </li>
+                        <li>
+                            <img src="assets/acordeon/node.png" alt="Node JS" title="Node JS">
+                        </li>
+                        <li>
+                            <img src="assets/acordeon/python.png" alt="Python" title="Python">
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="personal-skills">
+                    <h3>Habilidades pessoais:</h3>
+                    <ul class="habilities">
+                        <li>Comunicação</li>
+                        <li>Organização</li>
+                        <li>Aprendizagem</li>
+                        <li>Trabalho em equipe</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="acordeon">
+        
+        <button class="trigger" type="button">
+            <h2>Idiomas</h2>
+        </button>
 
         <div class="content">
             <ul class="languages-list">
@@ -46,12 +95,51 @@
 
     <section class="acordeon">
         
-        <button class="trigger" type="button">Portfolio</button>
+        <button class="trigger" type="button">
+            <h2>Portfolio</h2>
+        </button>
 
         <div class="content">
             <ul class="portfolio-list">
                 <li>
-                    <span></span>
+                    <span class="portfolio-title github">Sistema de estacionamento com Typescript</span>
+                    <a href="https://github.com/thuursilva/Parking-lot" target="_blank">https://github.com/thuursilva/Parking-lot</a>
+                </li>
+                <li>
+                    <span class="portfolio-title github">Sistema de lista diária com Javascript</span>
+                    <a href="https://github.com/thuursilva/toDoList" target="_blank">https://github.com/thuursilva/toDoList</a>
+                </li>
+                <li>
+                    <span class="portfolio-title github">Sistema de mochila de viagem com Javascript</span>
+                    <a href="https://github.com/thuursilva/Mochila-de-viagem" target="_blank">https://github.com/thuursilva/Mochila-de-viagem</a>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section class="acordeon">
+
+        <button class="trigger" type="button">
+            <h2>Experiências Profissionais</h2>
+        </button>
+
+        <div class="content">
+            <ul class="experience-list">
+                <li>
+                    <span class="experience-title">Analista de Suporte JR / Cartos SCD</span>
+                    <span class="period">May 2024 - Current</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed est pharetra, ornare turpis et, fringilla lacus. Nulla leo dui, pharetra eu interdum in, sodales id sapien. Ut vehicula molestie orci vitae hendrerit. Nulla blandit pulvinar purus vel sodales. Nam sed nulla congue, congue massa ac, hendrerit odio. Proin ac varius lorem, sed consequat justo. Ut pellentesque, sem quis interdum pharetra, libero erat porttitor neque, et fermentum lorem dui id ligula.</p>
+                </li>
+                <li>
+                    <span class="experience-title">Analista de Suporte JR / 55PBX</span>
+                    <span class="period">January 2022 - April 2024</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed est pharetra, ornare turpis et, fringilla lacus. Nulla leo dui, pharetra eu interdum in, sodales id sapien. Ut vehicula molestie orci vitae hendrerit. Nulla blandit pulvinar purus vel sodales. Nam sed nulla congue, congue massa ac, hendrerit odio. Proin ac varius lorem, sed consequat justo. Ut pellentesque, sem quis interdum pharetra, libero erat porttitor neque, et fermentum lorem dui id ligula.</p>
+                </li>
+                <li>
+                    <span class="experience-title">Estagiário de Suporte / 55PBX</span>
+                    <span class="period">September 2021 - January 2022</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed est pharetra, ornare turpis et, fringilla lacus. Nulla leo dui, pharetra eu interdum in, sodales id sapien. Ut vehicula molestie orci vitae hendrerit. Nulla blandit pulvinar purus vel sodales. Nam sed nulla congue, congue massa ac, hendrerit odio. Proin ac varius lorem, sed consequat justo. Ut pellentesque, sem quis interdum pharetra, libero erat porttitor neque, et fermentum lorem dui id ligula.</p>
                 </li>
             </ul>
         </div>

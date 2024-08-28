@@ -41,6 +41,11 @@
     background-size: contain;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .job::before{
     background-image: url('/assets/header/user\ icon.svg');
 }
